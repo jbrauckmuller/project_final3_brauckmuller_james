@@ -19,6 +19,17 @@ footer p {
 	font-size: .8em;
 }
 
+section img {
+	display: block;
+	margin: auto;
+}
+
+.logo {
+	width: 250px;
+	margin: 15px auto;
+	display: block;
+}
+
 .button_lg {
 	margin: 15px 0;
 	text-align: center;
@@ -32,7 +43,6 @@ footer p {
 
 .button_lg:hover {
 	background-color: #5d865a;
-
 }
 
 .logo {
@@ -50,4 +60,8 @@ footer p {
 	padding: 0;
 	position: absolute;
 	width: 1px;
+}
+
+.bold {
+	font-weight: bold;
 }
