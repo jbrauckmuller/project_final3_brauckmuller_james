@@ -51,6 +51,13 @@ section img {
 	display: block;
 }
 
+.contact_cont, .gift_cont, .award_cont {
+	display: none;
+	background-color: white;
+	padding: 5%;
+}
+
+
 .visuallyhidden {
 	border: 0;
 	clip: rect(0 0 0 0);
