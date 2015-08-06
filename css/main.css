@@ -73,7 +73,7 @@ legend {
 	cursor: pointer;
 	background-color: #356831;
 	-webkit-transition: background-color .5s ease-in-out;
-    transition: background-color .5s ease-in-out;
+		transition: background-color .5s ease-in-out;
 }
 
 .button_lg:hover {
@@ -148,26 +148,25 @@ legend {
 
 /* Mix It Up */
 .controls {
-  padding: 2%;
-  background: white;
-  margin-bottom: 2%;
+	padding: 2%;
+	background: white;
+	margin-bottom: 2%;
 }
 
 #Container .mix {
-  display: none;
+	display: none;
 }
 
 .container{
-  text-align: justify;
-  background: #e6e6e6;
-
-  -webkit-backface-visibility: hidden;
+	text-align: justify;
+	background: #e6e6e6;
+	-webkit-backface-visibility: hidden;
 }
 
 .container:after{
-  content: '';
-  display: inline-block;
-  width: 98%;
+	content: '';
+	display: inline-block;
+	width: 98%;
 }
 
 .container .mix,
@@ -177,21 +176,21 @@ legend {
 }
 
 .container .mix{
-  text-align: center;
-  background: white;
-  display: none;
-  margin: 0 auto 2%;
-  border-bottom: #5d865a 5px solid;
+	text-align: center;
+	background: white;
+	display: none;
+	margin: 0 auto 2%;
+	border-bottom: #5d865a 5px solid;
 }
 
 .container .mix:after{
-  content: attr(data-myorder);
-  color: white;
-  font-size: 16px;
-  display: inline-block;
-  vertical-align: top;
-  padding: 4% 6%;
-  font-weight: 700;
+	content: attr(data-myorder);
+	color: white;
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 4% 6%;
+	font-weight: 700;
 }
 
 .mix img {
@@ -214,6 +213,16 @@ legend {
 	.gallery {
 		display: block;
 	}
+
+	.container .mix, .container .gap {
+	width: 32%;
+	}
+
+	.menu_sel {
+	width: 20.5%;
+	display: inline-block;
+	}
+
 }
 
 @media (min-width: 1000px) {
@@ -230,5 +239,13 @@ legend {
 		vertical-align: top;
 		width: 33%;
 		display: inline-block;
+	}
+
+	.container .mix, .container .gap {
+		width: 23.5%;
+	}
+
+	.container {
+		padding: 2% 2% 0 2%;
 	}
 }
