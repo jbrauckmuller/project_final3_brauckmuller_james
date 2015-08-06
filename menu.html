@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JJ's Diner - Menu</title>
+	<meta name="description" content="JJ's Diner - Menu">
+	<meta name="author" content="Jamie Brauckmuller">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noticia+Text' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/vendor/normalize.min.css">
+	<link rel="stylesheet" href="css/chardinjs.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+		<a href="index.html">
+			<h1 class="visuallyhidden">JJ's Diner</h1>
+			<img class="logo" src="img/logo-header-min.png" alt="JJ's Diner" title="JJ's Diner">
+		</a>
+	</header>
+	<main>
+<!-- Menu -->
+	<!-- Menu Button -->
+		<div  class="button_lg menu filter" data-filter="all"><p>Menu</p></div>
+		<!-- Menu Hidden -->
+			<section class="menu_cont">
+				<h2 class="visuallyhidden">Menu</h2>
+				<div class="controls" data-intro="Select to filter menu items" data-position="top">
+				  <div class="filter menu_sel" data-filter=".apps">Appetizers</div>
+				  <div class="filter menu_sel" data-filter=".bevs">Beverages</div>
+				  <div class="filter menu_sel" data-filter=".trees">Entrees</div>
+				  <div class="filter menu_sel" data-filter=".zerts">Desserts</div>
+				</div>
+				<div id="Container" class="container">
+					<div class="mix zerts trees bevs apps" data-intro="Today's Special!" data-position="right">
+						<h3>Daily Special</h3>
+						<p class="small">JJ's Waffles</p>
+						<p>$5.99</p>
+						<img src="img/menu_bev_special.jpg" alt="Special - JJ's Waffles" title="JJ's Waffles">
+						</div>
+					<div class="mix apps">
+						<h3>Chicken Tenders</h3>
+						<p class="small">4 Pieces - White meat</p>
+						<p>$13.59</p>
+						<img src="img/menu_apps_strips.jpg" alt="Chicken" title="Chicken">
+					</div>
+					<div class="mix apps">
+						<h3>Hush Puppies</h3>
+						<p class="small">5 Pieces - w/ Sauce</p>
+						<p>$2.59</p>
+						<img src="img/menu_apps_hushp.jpg" alt="Hush Puppies" title="Hush Puppies">
+					</div>
+					<div class="mix apps"
+						><h3>Mozz Sticks</h3>
+						<p class="small">4 Pieces - w/ Sause</p>
+						<p>$2.89</p>
+						<img src="img/menu_apps_mozz.jpg" alt="Mozz Sticks" title="Mozz Sticks">
+					</div>
+				<!-- Beverages -->
+					<div class="mix bevs">
+						<h3>Tea</h3>
+						<p class="small">Sweet &amp; Unsweet</p>
+						<p>$1.79</p>
+						<img src="img/menu_bev_tea.jpg" alt="Sweat Tea" title="Sweat Tea">
+					</div>
+					<div class="mix bevs">
+						<h3>Root Beer</h3>
+						<p class="small">"Super Water"</p>
+						<p>$1.99</p>
+						<img src="img/menu_bev_rbeer.jpg" alt="Root Beer" title="Root Beer">
+					</div>
+					<div class="mix bevs">
+						<h3>Cola</h3>
+						<p class="small">Diet &amp; Regular</p>
+						<p>$1.99</p>
+						<img src="img/menu_bev_soda.jpg" alt="Cola" title="Cola">
+					</div>
+				<!-- Entrees -->
+					<div class="mix trees">
+						<h3>Spaghetti</h3>
+						<p class="small">Meat or marinara</p>
+						<p>$5.99</p>
+						<img src="img/menu_ent_spaghetti.jpg" alt="Spaghetti" title="Spaghetti">
+					</div>
+					<div class="mix trees">
+						<h3>Bacon Plate</h3>
+						<p class="small">Crispy Only</p>
+						<p>$9.99</p>
+						<img src="img/menu_ent_bacon.jpg" alt="Bacon Plate" title="Bacon Plate">
+					</div>
+					<div class="mix trees">
+						<h3>Grilled Cheese</h3>
+						<p class="small">With tomato soup</p>
+						<p>$4.59</p>
+						<img src="img/menu_ent_grillc.jpg" alt="Grilled Cheese" title="Grilled Cheese">
+					</div>
+				<!-- Desserts -->
+					<div class="mix zerts">
+						<h3>Root Beer Float</h3>
+						<p class="small">Super water &amp; Icream</p>
+						<p>$2.59</p>
+						<img src="img/menu_dess_float.jpg" alt="Root Beer Float" title="Root Beer Float">
+					</div>
+					<div class="mix zerts">
+						<h3>Dessert Waffles</h3>
+						<p class="small">Whipped Cream &amp; Chololate</p>
+						<p>$4.59</p>
+						<img src="img/menu_dess_waffles.jpg" alt="Dessert Wafles" title="Dessert Waffles">
+					</div>
+					<div class="mix zerts">
+						<h3>3-Layer Cake</h3>
+						<p class="small">3 Cholocate layers</p>
+						<p>$2.90</p>
+						<img src="img/menu_dess_cake.jpg" alt="Cake" title="Cake">
+					</div>
+
+				</div>
+		</section>
+	</main>
+<!-- Footer -->
+		<footer><p>&copy;2015 JJ's Diner</p></footer>
+<!-- Script Tags -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('script src="js/jQuery-2.1.3.js"><\/script>')</script>
+	<script src="js/jquery.backstretch.min.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/chardinjs.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
