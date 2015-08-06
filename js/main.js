@@ -24,7 +24,7 @@ $( document ).ready(function() {
 	$( '#Container' ).mixItUp();
 
 // StickUp
-	$('body').chardinJs('start');
+	$('.overlay').chardinJs('start');
 });
 
 
