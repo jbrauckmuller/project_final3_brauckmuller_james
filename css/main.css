@@ -10,6 +10,20 @@ main {
 
 }
 
+h1, h2 {
+	font-family: 'Noticia';
+	font-weight: lighter;
+}
+
+a {
+	margin: 1em 0;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
 footer {
 	text-align: center;
 }
