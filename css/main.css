@@ -144,6 +144,10 @@ legend {
 		max-width: 1250px;
 	}
 
+	.award_cont, .gift_cont, .contact_cont {
+		display: block;
+	}
+
 	.column {
 		vertical-align: top;
 		width: 33%;
