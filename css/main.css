@@ -137,3 +137,16 @@ legend {
 		display: block;
 	}
 }
+
+@media (min-width: 1000px) {
+	main {
+		background-color: white;
+		max-width: 1250px;
+	}
+
+	.column {
+		vertical-align: top;
+		width: 33%;
+		display: inline-block;
+	}
+}
