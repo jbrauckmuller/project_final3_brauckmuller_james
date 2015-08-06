@@ -21,6 +21,11 @@ main {
     transition: background-color .5s ease-in-out;
 }
 
+.button_lg:hover {
+	background-color: #5d865a;
+
+}
+
 .logo {
 	width: 250px;
 	margin: 15px auto;
