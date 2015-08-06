@@ -12,6 +12,14 @@ $( document ).ready(function() {
 	$( '.award' ).click(function() {
 		$( '.award_cont' ).slideToggle();
 	});
+
+	// Backstretch
+	$( '.gallery' ).backstretch([
+		"img/jjs-building.jpg",
+		"img/jjs-menu.jpg",
+		"img/jjs-wait.jpg",
+		], {duration: 3000, fade: 750});
+
 });
 
 
