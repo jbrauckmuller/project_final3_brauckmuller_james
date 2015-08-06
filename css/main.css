@@ -24,6 +24,27 @@ section img {
 	margin: auto;
 }
 
+button {
+	margin-top: 15px;
+}
+
+form {
+	width: 165px;
+	margin-top: 9%;
+}
+
+input {
+	width: 100px;
+}
+
+fieldset {
+	padding: 10px;
+}
+
+legend {
+	padding: 0 5px;
+}
+
 .logo {
 	width: 250px;
 	margin: 15px auto;
