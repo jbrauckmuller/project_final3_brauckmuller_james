@@ -10,6 +10,15 @@ main {
 
 }
 
+footer {
+	text-align: center;
+}
+
+footer p {
+	color: #939598;
+	font-size: .8em;
+}
+
 .button_lg {
 	margin: 15px 0;
 	text-align: center;
