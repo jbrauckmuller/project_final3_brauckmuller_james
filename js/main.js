@@ -20,6 +20,11 @@ $( document ).ready(function() {
 		"img/jjs-wait.jpg",
 		], {duration: 3000, fade: 750});
 
+	// MixItUp
+	$( '#Container' ).mixItUp();
+
+	// StickUp
+	$('body').chardinJs('start');
 });
 
 
