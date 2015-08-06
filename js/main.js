@@ -13,17 +13,17 @@ $( document ).ready(function() {
 		$( '.award_cont' ).slideToggle();
 	});
 
-	// Backstretch
+// Backstretch
 	$( '.gallery' ).backstretch([
 		"img/jjs-building.jpg",
 		"img/jjs-menu.jpg",
 		"img/jjs-wait.jpg",
 		], {duration: 3000, fade: 750});
 
-	// MixItUp
+// MixItUp
 	$( '#Container' ).mixItUp();
 
-	// StickUp
+// StickUp
 	$('body').chardinJs('start');
 });
 
