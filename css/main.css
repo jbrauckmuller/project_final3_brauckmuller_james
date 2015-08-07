@@ -117,6 +117,10 @@ legend {
 	text-align: right;
 }
 
+.center {
+	text-align: center;
+}
+
 .gallery {
 	display: none;
 	width: 100%;
