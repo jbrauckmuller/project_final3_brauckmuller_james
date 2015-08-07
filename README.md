@@ -3,7 +3,7 @@
 # Resources
 
 # jQuery Implementation
-* Backstretch - Appears on index.html using the slideshow form - media query 750px min
-* MixItUp - Appears on menu.html in the menu items - always active
-* Chardin - Appears on menu.html in the body as an overlay - on page load
+* [Backstretch](http://srobbin.com/jquery-plugins/backstretch/) - Appears on index.html using the slideshow form - media query 750px min
+* [MixItUp](https://mixitup.kunkalabs.com/) - Appears on menu.html in the menu items - always active
+* [Chardin](http://heelhook.github.io/chardin.js/) - Appears on menu.html in the body as an overlay - on page load
 
